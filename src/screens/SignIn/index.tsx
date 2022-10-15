@@ -1,3 +1,4 @@
+import { Button } from "@src/components/Button";
 import { Input } from "@src/components/Input";
 import React from "react";
 
@@ -17,6 +18,8 @@ export function SignIn() {
         type="secondary"
         secureTextEntry
       />
+
+      <Button title="Entrar" type="primary" />
     </Container>
   );
 }
